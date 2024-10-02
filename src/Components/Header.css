@@ -1,0 +1,34 @@
+.column-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-left span {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.header-icon {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header-right {
+  display: flex;
+}
+
+.header-right-icon {
+  width: 18px;
+  height: 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
